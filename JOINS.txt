@@ -1,0 +1,19 @@
+JOIN:-Join operation is used to combine rows of two r more tables on related column between them
+*Join command in SQL means retrieving data from two r more tables based on common key column.
+Types of joins: INNER JOIN 
+OUTER JOIN(LEFT R RIGHT)
+CROSS JOIN
+SELF JOIN
+
+INNER JOIN: It retrieves records that have matching values in both tables.
+LEFT OUTER JOIN: It retrieves all the records from the left tables and matched records from right tables.
+RIGHT OUTER JOIN: It retrieves all the records from the right tables and matched records from left tables.
+CROSS JOIN: It retrieve all the data from both tables and it will combine each row of one table with the each row of the another table
+FULL JOIN: It retrieves all the data from table with out duplicates.
+SELF JOIN: It combines the rows in the same table based on some specific conditions it is also called as inner default join.
+
+
+EID   ENAME       EAGE                                  EID     SAL               CITY                                           EID|  ENAM|   EAGE |    SAL        |    CITY
+1        RAM            40                                        2      100000        HYD                                           2    | JHON    |   55     |   678900  |        VIZ
+2        JHON          55                                         3      678900        VIZ                                  	     3    | SMITH   |34        |  728823   |       NIZ
+3        SMITH         34                                        5      728823         NIZ
