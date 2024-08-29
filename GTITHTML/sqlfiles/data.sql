@@ -1,0 +1,1 @@
+create table student@(std_id int,std_name varchar(20),std_marks int,subject varchar(20),(grade varchar(20));
